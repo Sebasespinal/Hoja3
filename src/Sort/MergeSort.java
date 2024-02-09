@@ -1,5 +1,8 @@
 package Sort;
 
+import java.util.ArrayList;
+import java.util.List;
+
 class MergeSort implements SortingAlgorithm {
     public void sort(List<Integer> arr) {
         mergeSort(arr, 0, arr.size() - 1);

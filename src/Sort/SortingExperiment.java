@@ -3,9 +3,9 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Random;
+import java.util.Scanner;
 
 public class SortingExperiment {
 	 public static void main(String[] args) {
@@ -64,7 +64,7 @@ public class SortingExperiment {
 	            while (scanner.hasNextInt()) {
 	                numbers.add(scanner.nextInt());
 	            }
-	        } catch (FileNotFoundException e) {
+	        } catch (IOException e) {
 	            e.printStackTrace();
 	        }
 	        return numbers;

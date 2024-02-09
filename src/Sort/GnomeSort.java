@@ -1,5 +1,8 @@
 package Sort;
 
+import java.util.Collections;
+import java.util.List;
+
 class GnomeSort implements SortingAlgorithm {
     public void sort(List<Integer> arr) {
         int index = 0;
